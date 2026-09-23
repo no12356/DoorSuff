@@ -102,7 +102,7 @@ FakeScreech2 = Model.entity
 			end;
 			p1.ax_t = math.deg(v20);
 			p1.ay_t = math.deg(v19);
-			game.ReplicatedStorage.Bricks.Screech:FireServer(u8);
+			-- Removed: Bricks.Screech does not exist in this DOORS version
 			u5 = false;
 			for v22 = 1, 1000000 do
 				task.wait();
