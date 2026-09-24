@@ -15,10 +15,10 @@ local FOV_SPRINT      = 90
 local FOV_IDLE        = 70
 
 local STAMINA_MAX     = 100
-local DRAIN_PER_SEC   = 8       -- ~12.5 seconds of sprint at full tank
-local REGEN_PER_SEC   = 12      -- ~8.3 seconds to refill from empty
+local DRAIN_PER_SEC   = 12.5       -- ~8.3 seconds of sprint at full tank
+local REGEN_PER_SEC   = 8.3      -- ~12.5 seconds to refill from empty
 
-local SPRINT_SPEED    = 21      -- flat walkspeed while sprinting
+local SPRINT_SPEED    = 20.5      -- flat walkspeed while sprinting
 local HIDE_DELAY      = 10      -- seconds bar stays visible after sprint ends
 
 -- ========== GUI ==========
